@@ -21,9 +21,3 @@ button.onclick = (e) => {
 };
 
 document.body.appendChild(button);
-
-addEventListener('click', () => {
-    let video = document.querySelector('video');
-    if(!video) return;
-    video.currentTime = video.duration;
-})
